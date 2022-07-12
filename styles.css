@@ -2,8 +2,8 @@
     color: red;
 }
 
-.list >li:last-child a[href] {
-    color: green;
+.list >li+li >a[href="#"] {
+    background-color: green;
 }
 
 ul + p {
